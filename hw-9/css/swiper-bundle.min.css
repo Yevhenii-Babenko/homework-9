@@ -1,0 +1,160 @@
+
+.slider{
+    min-width: 0;
+}
+
+/* Слайдер */
+.slick-slider{
+    position: relative;
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+    padding: 0;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+}
+/* Слайд */
+.slick-slide{
+    /*padding-right: 0.144%;*/
+    margin: 0 18px;
+    text-align: center;
+    /*width: 309px;*/
+    /*height: 161px;*/
+}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{
+    padding: 0;
+    position: absolute;
+    top: 30%;
+    z-index: 2;
+    font-size: 0;
+    width: 47px;
+    height: 47px;
+    background: var(--white-color);
+    border: 1px solid var(--brand-color);
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev{
+    left: 7%;
+    background: url("../assets/images/slider/arrow-left.svg") 42% center / 27% no-repeat;
+    background-color: #ffffff;
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next{
+    right: 7%;
+    background: url("../assets/images/slider/arrow-right.svg") 58% center / 27% no-repeat;
+    background-color: #ffffff;
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 47px 0 0;
+}
+.slick-dots li{
+    list-style: none;
+    margin-right: 11px;
+    align-items: center;
+    padding: 0;
+}
+/* Активная точка */
+.slick-dots li.slick-active{}
+/* Элемент точки */
+.slick-dots li button{
+    /*text-decoration: none;*/
+    /*display: inline-block;*/
+    background: #828282 url("../assets/images/slider/dott.png");
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    text-indent: -9999px;
+    overflow:hidden;
+    width: 11%;
+    height: 11px;
+    background-color: ;
+    border: 1px solid #828282;
+    border-radius: 50%;
+    outline: none;
+}
+
+.slider-img{
+    width: 309px;
+    height: 161px;
+    border-radius: 2%;
+    object-fit: contain;
+}
+
+.slider__item:first-child{
+    /*border: 1px solid #828282;*/
+    /*padding-right: 2.5%;*/
+    /*text-align: center;*/
+}
+.slider-img1,
+.slider-img5{
+    object-fit: cover;
+    border: 1px solid #828282;
+    border-radius: 5px;
+}
+.slider-img{
+    object-fit: cover;
+}
+
+
+/*!*body {*!*/
+/*    background: #eee;*/
+/*    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;*/
+/*    font-size: 14px;*/
+/*    color: #000;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+/*.swiper-container {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    !*display: flex;*!*/
+/*}*/
+
+/*.swiper-slide,*/
+/*.slide__content{*/
+/*    width: 309px;*/
+/*    height: 161px;*/
+/*    !*text-align: center;*!*/
+/*    !*font-size: 18px;*!*/
+/*    !*background: #fff;*!*/
+
+/*    !* Center slide text vertically *!*/
+/*    !*display: -webkit-box;*!*/
+/*    !*display: -ms-flexbox;*!*/
+/*    !*display: -webkit-flex;*!*/
+/*    display: flex;*/
+/*    !*-webkit-box-pack: center;*!*/
+/*    !*-ms-flex-pack: center;*!*/
+/*    !*-webkit-justify-content: center;*!*/
+/*    !*justify-content: center;*!*/
+/*    !*-webkit-box-align: center;*!*/
+/*    !*-ms-flex-align: center;*!*/
+/*    !*-webkit-align-items: center;*!*/
+/*    !*align-items: center;*!*/
+/*}*/
