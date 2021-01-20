@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!--suppress HtmlUnknownTarget -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="css/media-query.css">
+<!--    <link rel="stylesheet" href="css/media-query.css">-->
     <link rel="shortcut icon" href="assets/images/logo/LOGO.png" />
 
 </head>
@@ -28,8 +27,23 @@
 <section class="tv-player-wrapper">
     <div class="rectangle container-r">
         <div class="rectangle-left">
-            <div class="left__item1"></div>
-            <div class="left__item2"></div>
+            <div class="left-box-holder">
+                <div class="left__item1">
+                    <img class="left__item1-img"
+                         sizes="(max-width: 1077px) 100vw, 1077px"
+                         srcset="
+                     assets/images/video/srcset-images/match_card_jjg5eg_c_scale-w_360.png 360w,
+                     assets/images/video/srcset-images/match_card_jjg5eg_c_scale-w_496.png 496w,
+                     assets/images/video/srcset-images/match_card_jjg5eg_c_scale-w_615.png 615w,
+                     assets/images/video/srcset-images/match_card_jjg5eg_c_scale-w_725.png 725w,
+                     assets/images/video/srcset-images/match_card_jjg5eg_c_scale-w_1077.png 1077w"
+                         src="assets/images/video/srcset-images/match_card_jjg5eg_c_scale-w_1077.png"
+                         alt="">
+                </div>
+                <div class="left__item2">
+                    <video class="left__item2-video" src="assets/video/arsenal-vs-chelsea_video.mp4" controls></video>
+                </div>
+            </div>
         </div>
         <div class="rectangle-right">
             <a href="#" class="rectangle__link">WHAT IT DOES</a>
@@ -63,12 +77,12 @@
 <!--                alt="Interface image">-->
         <img class="img-360__item" sizes="(max-width: 1080px) 100vw, 1080px"
                 srcset="
-                assets/images/interface/interface-mobile-min_i2txnv/interface-mobile-min_i2txnv_c_scale,w_360.png,w_360.png 360w,
-                assets/images/interface/interface-mobile-min_i2txnv/interface-mobile-min_i2txnv_c_scale,w_415.png 415w,
-                assets/images/interface/interface-mobile-min_i2txnv/interface-mobile-min_i2txnv_c_scale,w_471.png 471w,
-                assets/images/interface/interface-mobile-min_i2txnv/interface-mobile-min_i2txnv_c_scale,w_520.png 520w,
-                assets/images/interface/interface-mobile-min_i2txnv/interface-mobile-min_i2txnv_c_scale,w_1080.png 1080w"
-                src="assets/images/interface/interface-mobile-min_i2txnv/interface-mobile-min_i2txnv_c_scale,w_1080.png"
+                assets/images/interface/interface-mobile-min_i2txnv/interface-mobile-min_i2txnv_c_scale-w_360.png 360w,
+                assets/images/interface/interface-mobile-min_i2txnv/interface-mobile-min_i2txnv_c_scale-w_415.png 415w,
+                assets/images/interface/interface-mobile-min_i2txnv/interface-mobile-min_i2txnv_c_scale-w_471.png 471w,
+                assets/images/interface/interface-mobile-min_i2txnv/interface-mobile-min_i2txnv_c_scale-w_520.png 520w,
+                assets/images/interface/interface-mobile-min_i2txnv/interface-mobile-min_i2txnv_c_scale-w_1080.png 1080w"
+                src="assets/images/interface/interface-mobile-min_i2txnv/interface-mobile-min_i2txnv_c_scale-w_1080.png"
                 alt="Interface image">
     </div>
 </div>
@@ -111,9 +125,6 @@
                 <h3 class="group-696__content">Brand new video section including dedicated areas for your chosen team,
                     trending video, Premier League, Football league and other major leagues</h3>
             </div>
-        </div> <!-- div group-696 the end of first row-->
-
-        <div class="group-696">
             <div class="group-696__item">
                 <svg>
                     <path class="group-696__icon" d="M23.9997 10.0001L23.333 6.66675H8.33301V35.0001H11.6663V23.3334H20.9997L21.6663 26.6667H33.333V10.0001H23.9997Z" />
@@ -143,9 +154,6 @@
                 </svg>
                 <h3 class="group-696__content">Live updated league tables including all the domestic, European and major leagues and tournaments</h3>
             </div>
-        </div> <!-- div group the end of second row-->
-
-        <div class="group-696">
             <div class="group-696__item">
                 <svg>
                     <path class="group-696__icon" d="M30 1.68341L13.3333 1.66675C11.5 1.66675 10 3.16675 10 5.00008V10.0001H13.3333V8.33342H30V31.6667H13.3333V30.0001H10V35.0001C10
@@ -171,9 +179,9 @@
                 </svg>
                 <h3 class="group-696__content">And you can achieve super-fan status by personalising your home page with up-to-the-minute information on your team.</h3>
             </div>
-        </div> <!-- div group the end of third row-->
-    </div> <!-- div.container the end -->
-</section> <!-- the end of section .features -->
+        </div>
+    </div>
+</section>
 <section class="slider-wrapper">
     <div class="slider-inner container-s">
         <h2 class="slider-inner__title">What Our Users Say</h2>
