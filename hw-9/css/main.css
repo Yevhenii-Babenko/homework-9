@@ -3,7 +3,7 @@ body{
     min-width: 22.5rem;
     width: 100%;
     height: 100vh;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     font-family: 'Lato', sans-serif;
     font-size: 1em;
@@ -94,6 +94,7 @@ h1, h2, h3, h4, h5, h6, p{
 .google-play:hover{
     cursor: pointer;
     transform: scale(1.1);
+    transition-duration: 0.5s
 }
 
 /* section tv-player-wrapper */
@@ -215,6 +216,7 @@ h1, h2, h3, h4, h5, h6, p{
 .rectangle__link:hover{
     cursor: pointer;
     text-decoration: underline;
+    /*transition-duration: 0.5s*/
 }
 
 .rectangle__title{
@@ -566,6 +568,7 @@ svg{
 .google-play__down:hover{
     cursor: pointer;
     transform: scale(1.1);
+    transition-duration: 0.5s
 }
 
 
@@ -612,6 +615,7 @@ svg{
 
 .nav__link:hover{
     transform: scale(1.1);
+    transition-duration: 0.5s
 }
 
 .social-nets{
@@ -623,6 +627,7 @@ svg{
 .social-nets > svg:hover{
     cursor: pointer;
     transform: scale(1.1);
+    transition-duration: 0.5s
 }
 
 .social-nets > svg{
@@ -1020,7 +1025,7 @@ height: 149.58px; */
     }
 }
 
-@media screen and (max-width: 22.5rem) { /*360px*/
+@media screen and (max-width: 22.5rem){ /*360px*/
     /* header-wrapper */
     .header{
         padding: 8.88888888888889% 5.555555555555555% 16.38888888888889%;
