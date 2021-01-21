@@ -1,0 +1,7 @@
+[master 9976856] added new srcset images for section.tv-player-wrapper>.rectangle container-r>.rectangle-left>.left-box-holder
+ 5 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hw-9/assets/images/video/srcset-images/match_card_jjg5eg_c_scale-w_1077.png
+ create mode 100644 hw-9/assets/images/video/srcset-images/match_card_jjg5eg_c_scale-w_360.png
+ create mode 100644 hw-9/assets/images/video/srcset-images/match_card_jjg5eg_c_scale-w_496.png
+ create mode 100644 hw-9/assets/images/video/srcset-images/match_card_jjg5eg_c_scale-w_615.png
+ create mode 100644 hw-9/assets/images/video/srcset-images/match_card_jjg5eg_c_scale-w_725.png
