@@ -640,7 +640,7 @@ svg{
 @media screen and (max-width: 45rem){  /*720px*/
     /* header wrapper */
     .header{
-        padding: 4.444444444444445% 25% 8.194444444444445%; /* 32px 20px 59px */
+        padding: 4.444444444444445% 5% 8.194444444444445%; /* 32px 20px 59px */
     }
     .container-h{
         max-width: 45rem;
@@ -699,7 +699,7 @@ svg{
     /*    transform: rotate(-90deg);*/
     /*}*/
     .rectangle{
-        padding: 4.4444% 25% 8.194444444444445%; /* 32px 20px 59px */
+        padding: 4.4444% 5% 8.194444444444445%; /* 32px 20px 59px */
         /*border: 1px dashed red;*/
     }
     .container-r{
@@ -712,7 +712,8 @@ svg{
         order: 1;
         text-align: center;
         max-width: 88.88888888888889%; /* 320px */
-        margin-bottom: 41%;
+        margin-bottom: 5%;
+        /*margin-bottom: 41%;*/
         /*margin-bottom: 22.272541668213368%;*/
     }
     .rectangle__link{
@@ -759,7 +760,7 @@ svg{
     }
 
     .left__item1-img{
-        min-width: 50%; /*width: 247.21px; 160px for width screen 361*/
+        min-width: 45%; /*width: 247.21px; 160px for width screen 361*/
         max-width: 77.253125%; /*width: 247.21px;*/
         max-height: 149.58px;
         min-height: 100%;
@@ -786,7 +787,8 @@ svg{
 
     .left__item2-video {
         /*position: absolute;*/
-        min-width: 64.375%; /*width: 247.21px; 160px for width screen 361*/
+        min-width: 247.21px; /*width: 247.21px; 160px for width screen 361*/
+        /*min-width: 64.375%; !*width: 247.21px; 160px for width screen 361*!*/
         max-width: 77.253125%; /*width: 247.21px;*/
         max-height: 149.58px;
         min-height: 100%;
@@ -802,7 +804,7 @@ height: 149.58px; */
         background-image: none;
     }
     .interface{
-        padding: 8.611111111111111% 25% 0;
+        padding: 8.611111111111111% 5% 0;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -821,8 +823,8 @@ height: 149.58px; */
     .img-360__item{
         position: relative;
         object-fit: cover;
-        width: 150%;
-        left: -30%;
+        width: 120%;
+        left: -8%;
     }
     .left-box{
         text-align: center;
@@ -844,7 +846,7 @@ height: 149.58px; */
         /*overflow:hidden;*/
     }
     .features{
-        padding: 5.833333333333333% 25% 9.583333333333334%;
+        padding: 5.833333333333333% 20% 9.583333333333334%;
     }
     .container-f{
         max-width: 45rem;
@@ -854,7 +856,7 @@ height: 149.58px; */
     }
     .features__title{
         max-width: 86.4849833147942%;
-        font-size:  1.75em;
+        /*font-size:  1.75em;*/
         line-height: 132.142%;
         text-align: center;
         /* #333333 */
@@ -926,7 +928,7 @@ height: 149.58px; */
         visibility: hidden;
     }
 
-    .slick-arrow.slick-next{
+    button.slick-arrow.slick-next{
         right: -7%;
         /*right: 0;*/
     }
@@ -957,7 +959,7 @@ height: 149.58px; */
         background-position: bottom;
     }
     .team-contact{
-        padding: 2.638888888888889% 25% 78.75%;
+        padding: 2.638888888888889% 5% 78.75%;
         display: flex;
         /*margin-bottom: auto;*/
     }
@@ -974,7 +976,8 @@ height: 149.58px; */
         padding-bottom: 4.6875%;
         line-height: 132.142%;
         letter-spacing: 0;
-        text-align: center;
+        /*text-align: center;*/
+        justify-content: center;
     }
     .team-contact__content{
         padding-bottom: 11.5625%;
@@ -993,7 +996,7 @@ height: 149.58px; */
     }
     /* footer-sports */
     .inner{
-        padding: 6.944444444444445% 25% 5%;
+        padding: 6.944444444444445% 15% 5%;
         flex-direction: column;
         align-items: flex-start;
     }
@@ -1022,6 +1025,127 @@ height: 149.58px; */
     .social-nets > svg{
         width: 25px;
         height: 25px;
+    }
+}
+
+@media screen and (max-width: 30rem){ /*480px*/
+    .header{
+        padding: 6.666666666666667% 4.166666666666666% 12.291666666666666%; /* 8.88888888888889% 5.555555555555555% 16.38888888888889% */
+    }
+    .container-h{
+        max-width: 30rem;
+        align-items: center;
+        /*border: 1px solid green;*/
+    }
+    .header-wrapper{
+        background: none;
+    }
+    /* section tv-player-wrapper */
+    .tv-player-wrapper{
+        background: url("../assets/images/background-images/Rectangle-left.png") no-repeat bottom center;
+        background-size: 140%;
+        overflow: hidden;
+        /*border: 2px dashed darkred;*/
+    }
+    .rectangle{
+        padding: 12.5% 4.6875% 0; /* 16.875% 6.25% 0*/
+    }
+    .container-r{
+        max-width: 30rem; /* 100% */
+        display: flex;
+        flex-direction: column;
+    }
+    .rectangle-right{
+        max-width: 76.55502392344498%;
+        margin-bottom: 35%;
+    }
+    .left__item2-video {
+        min-width: 224px; /*width: 247.21px; 160px for width screen 361*/
+       }
+    .interface-wrapper{
+        /*border: 2px dashed green;*/
+        background-image: none;
+    }
+    .interface{
+        padding: 12.5% 4.6875% 0; /* 19.375% 6.25% 0 */
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-i{
+        max-width: 30rem;
+        /*min-width: 22.5rem;*/
+        margin: 0;
+        overflow: hidden;
+    }
+    .left-box{
+    max-width: 76.55502392344498%;
+    }
+    .img-360 {
+        width: 70%;
+    }
+    /* section features*/
+    .features-wrapper{
+        background-image: none;
+    }
+    .features{
+        padding:10.416666666666668% 4.166666666666666% 14.583333333333334%; /* 13.125% 5.555555555555555% 21.5625% */
+    }
+    .container-f{
+        max-width: 30rem;
+    }
+    /* slider part*/
+    .slider-wrapper{
+        /*background-color: #084482;*/
+        min-width: 0;
+    }
+    .slider-inner{
+        padding: 10.416666666666668% 4.166666666666666% 10.416666666666668%; /* 50px 25px 71px 26px */
+        min-width: 0;
+    }
+    /*representative part*/
+    .representative{
+        padding:12.5% 4.166666666666666% 14.583333333333334%; /* 17.8125% 6.25% 22.1875% */
+    }
+    .container-r{
+        max-width: 30rem;
+    }
+    .container__title{
+        padding-bottom: 13.65079365079365%;
+    }
+    .container__item{
+        max-width: 76.55502392344498%;
+    }
+    /* section team-contact */
+    .team-contact-wrapper{
+        background-position: bottom;
+    }
+    .team-contact{
+        padding: 4.166666666666666%  4.166666666666666% 0; /* 5.9375% 6.25% */
+        display: flex;
+        justify-content: center;
+    }
+    .container-h{
+        max-width: 30rem;
+    }
+    .info-box{
+        max-width: 76.55502392344498%;
+        padding-bottom: 80%;
+    }
+    .team-contact__content{
+        /*white-space: pre-line;*/
+    }
+    /* footer-sports */
+    .inner{
+        padding:9.375% 4.166666666666666% 10.416666666666668%; /* 12.8% 6.2% 14% 5.9% */
+        flex-direction: column;
+        /*display: flex;*/
+        align-items: flex-start;
+        /*justify-content: space-between;*/
+    }
+    .container-f{
+        max-width: 30rem;
+        margin: 0;
     }
 }
 
@@ -1159,7 +1283,7 @@ height: 149.58px; */
         overflow: hidden;
     }
     .img-360{
-        width: 100%;
+        width: 75%;
         /*display: revert;*/
     }
     .img-360__item{
@@ -1189,7 +1313,7 @@ height: 149.58px; */
         background-image: none;
     }
     .features{
-        padding: 13.125% 5.555555555555555% 21.5625%;
+        padding: 13.125% 5.555555555555555% 10%;
     }
     .container-f{
         max-width: 22.5rem;
@@ -1200,8 +1324,8 @@ height: 149.58px; */
     }
     .features__title{
         max-width: 100%;
-        font-size: 1.75em;
-        line-height: 132%;
+        /*font-size: 1.75em;*/
+        /*line-height: 132%;*/
         text-align: center;
         white-space: pre-line;
         /* #333333 */
@@ -1263,13 +1387,13 @@ height: 149.58px; */
         /*display: none;*/
         visibility: hidden;
     }
-    .slick-arrow.slick-next{
-        right: -7%;
+    button.slick-arrow.slick-next{
+        right: -2%;
         /*right: 0;*/
     }
     /*representative part*/
     .representative{
-        padding: 17.8125% 6.25% 22.1875%;
+        padding: 17.8125% 20px 22.1875%;
     }
     .container-r{
         max-width: 22.5rem;
@@ -1278,6 +1402,7 @@ height: 149.58px; */
         padding-bottom: 13.65079365079365%;
     }
     .container__item{
+        max-width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -1307,7 +1432,7 @@ height: 149.58px; */
         /*flex-direction: column;*/
         top: 0;
         left: 50%;
-        margin-bottom: 97.46031746031746%;
+        margin-bottom: 15%; /* 97.46031746031746% */
     }
     .team-contact__title {
         padding-bottom: 4.761904761904762%;
@@ -1349,9 +1474,13 @@ height: 149.58px; */
     .footer-nav{
         width: 100%;
         gap: 0;
-        justify-content: space-between;
+        justify-content: unset;
         order: 2;
-        margin-top: 10.759493670886076%;
+        margin-top: 0;
+        padding-top: 10.759493670886076%;
+    }
+    .nav__link{
+        flex-grow: 1;
     }
     .social-nets{
         display: flex;
